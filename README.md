@@ -61,12 +61,15 @@ Install the necessary packages directly to the Unreal Python interpreter:
 ## Import project geometry using DataSmith 
 1. Export from the modeling platform your model using the Datasmith Plugin. Depending on your arrangement of exports, you may create several `.udatasmith` files.
 2. Upon relaunching your SIEProject, clean your new project from unnecessary default geometry and actors. *Note: Make sure to NOT delete the `SunSky` and `ExponentialHeightFog` elements.*
+   
    ![delete_unwanted_elems](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/img.png)
-3. To begin importing new geometry, click the DataSmith button to open the wizard, and select the `.udatasmith` files of interest from step 1.
-4. [RECOMMENDED] For better content browser organization, save all imported geometry in a separate folder in the Content Browser.
+4. To begin importing new geometry, click the DataSmith button to open the wizard, and select the `.udatasmith` files of interest from step 1.
+5. [RECOMMENDED] For better content browser organization, save all imported geometry in a separate folder in the Content Browser.
+   
    ![SIEFolder_content_browser](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/SIEFolder_content_browser.png)
    
-5. Once the import begins, ensure to ONLY import `Geometry`, and `Materials & Textures`. Later on, we will be creating our own `Lights`, and `Cameras`.
+7. Once the import begins, ensure to ONLY import `Geometry`, and `Materials & Textures`. Later on, we will be creating our own `Lights`, and `Cameras`.
+   
    ![import_options](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/import_options.png)
 
 ## Running main.py
