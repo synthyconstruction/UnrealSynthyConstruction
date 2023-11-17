@@ -97,6 +97,7 @@ Install the necessary packages directly to the Unreal Python interpreter:
 
 ### Collecting Rendered Images
 ![render](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/render.png)
+
 1. Create Cameras (`CREATE_CAMERAS = True`) and PostProcess Volume (`POST_PROCESS_VOL_CREATE = True`).
 2. Run `main.py` from the output console.
 3. Load Textures (`IMPORT_TEXTURES = True`), create material instances (`CREATE_MATERIAL = True`), and automatically apply them to objects (`APPLY_MATERIAL = True`).
@@ -109,20 +110,24 @@ Install the necessary packages directly to the Unreal Python interpreter:
 
 ### Collecting Depth Images
 ![depth_map](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/depth_map.png)
+
 *NOTE: make sure you have your cameras already created (see step 1). If you already have your cameras created, there is no need to run that step again.*
 **Instructions to come later**
 
 ### Creating and Applying Label Maps
 ![rgb_mask](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/rgb_mask.png)
+
 *NOTE: make sure you have your cameras already created (see step 1). If you already have your cameras created, there is no need to run that step again.*
 **Instructions to come later**
 
 ### Capturing SurfaceNormals
 ![surface_normal](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/surface_normal.png)
+
 *NOTE: make sure you have your cameras already created (see step 1). If you already have your cameras created, there is no need to run that step again.*
 **Instructions to come later**
 
 ### Working with Canonical Cameras
 ![canonical_camera](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/canonical_view.png)
+
 *NOTE: make sure you have your cameras already created (see step 1). If you already have your cameras created, there is no need to run that step again.*
 **Instructions to come later**
