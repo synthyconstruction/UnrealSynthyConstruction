@@ -1,0 +1,18 @@
+{
+    "KEYS": ["Metallic", "Specular", "Roughness"],
+    
+    "MATERIAL_VALUE_DICT": {
+        "Concrete": [0, 0, 1],
+        "Aluminum": [0.5, 0.5, 0.2],
+        "Wood": [0, 0.5, 1],
+        "Insulation": [0, 0.5, 1],
+        "GypsumBoard": [0, 0.5, 0.5],
+        "Painted Wall": [0, 0.2, 0.5],
+        "Electric Metallic Tube": [0.7, 0.4, 0.5],
+        "Drop Ceiling": [0, 0.2, 0.5],
+        "Rebar": [0.5, 0.1, 0.9],
+        "Oxidized Rebar": [0.2, 0, 1],
+        "PVC": [0.2, 0.5, 0.3],
+        "Glass": [0.2, 0.7, 0.1]
+    }
+}

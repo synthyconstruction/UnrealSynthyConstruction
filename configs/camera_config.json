@@ -1,0 +1,19 @@
+{
+    "CUBEMAP_DIR": {
+        "front_dir":[0, 0, 0],
+        "right_dir":[0, 0, 90],
+        "left_dir":[0, 0, 270],
+        "back_dir":[0, 0, 180],
+        "up_dir":[0, 90, 0],
+        "down_dir":[0, 270, 0]
+    },
+    
+    "CUBEMAP_NAME": [
+        "front_dir", 
+        "right_dir", 
+        "left_dir", 
+        "back_dir", 
+        "up_dir", 
+        "down_dir"
+    ]
+}

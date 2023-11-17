@@ -1,0 +1,353 @@
+{
+    "CLASS_RGB_MAP": {
+        "background":[0, 0, 0],
+
+        "beam-concrete": [180, 120, 120],
+        "beam-steel": [6, 230, 230],
+
+        "ceiling-compound": [255, 71, 0],
+        "ceiling-framing-wood": [4, 200, 3],
+        "ceiling-gypsumboard": [120, 120, 80],
+        "ceiling-plastered":[56,65,222],
+        "ceiling-concrete": [40, 207, 100],
+        "ceiling-soffit":[255, 224, 0],
+        "ceiling-skylight": [0, 255, 245],
+
+        "column-concrete": [140, 140, 140],
+        "column-steel": [204, 5, 255],
+
+        "curtainwall-concrete": [230, 230, 230],
+        "curtainwall-glass": [4, 250, 7],
+        "curtainwall-metal": [224, 5, 255],
+        "curtainwall-mullion": [235, 255, 7],
+        "curtainwall-panel": [150, 5, 61],
+        "curtainwall-panel2": [120, 120, 70],
+
+        "door": [8, 255, 51],
+
+        "drywall-framing-wood": [255, 6, 82],
+        "drywall-framing-metal": [143, 255, 140],
+        "drywall-insulation": [204, 255, 4],
+        "drywall-gypsumboard": [255, 51, 7],
+        "drywall-plastered": [204, 70, 3],
+
+        "duct-diffuser":[235, 12, 255],
+        "duct-insulated":[160, 150, 20],
+        "duct-uninsulated": [0, 102, 200],
+        "duct-vent": [0, 255, 20],
+        "duct-hanger": [0, 211, 255],
+
+        "electrical-box": [61, 230, 250],
+        "electrical-cabletray":[0, 163, 255],
+        "electrical-conduit": [255, 6, 51],
+        "electrical-coverplate": [11, 102, 255],
+        "electrical-junctionbox":[140, 140, 140],
+        "electrical-motor":[250, 10, 15],
+
+        "firehydrant": [0, 173, 255],
+        "firecabinet": [30, 237, 10],  
+
+        "fixture-sign":[255, 31, 0],
+        "fixture-alarm-fire":[194,45,72],
+        "fixture-alarm-smoke":[156,75,124],
+        "fixture-fan": [255, 7, 71],
+        "fixture-light": [7, 255, 224],
+
+        "floor": [255, 9, 224],
+        "floor-concrete": [9, 7, 230],
+        "floor-formwork": [11, 200, 200],
+        "floor-metaldeck": [220, 220, 220],
+        "floor-tile": [31, 0, 255],
+        "floor-rebar":[255, 163, 0],
+
+        "foundation-pile": [255, 9, 92],
+        "foundation-slab": [20, 255, 0],
+
+        "framing-plate": [207, 10, 20],
+        "framing-truss-metal": [10, 148, 30],
+        "framing-joist-metal": [8, 255, 214],
+
+        "furniture-chair": [43, 59, 173],
+        "furniture-fireextinguisher": [59, 10, 255],
+        "furniture-table": [45, 32, 101],
+        "furniture-countertop": [0, 235, 255],
+        "furniture-cabinet": [80, 50, 50],
+        "furniture-cabinets": [80, 50, 50],
+
+        "guardrails":[112, 9, 255],
+
+        "mechanical-equipment": [72, 63, 157],
+        "mechanical-pump": [255, 28, 199],
+        "mechanical-tank": [56, 253, 193],
+
+        "pipe-hangers": [255, 82, 0],
+        "pipe-hangers":[56,26,143],
+        "pipe-insulated":[31, 255, 0],
+        "pipe-uninsulated": [255, 184, 6],
+        "pipe-sprinkler": [255, 0, 0],
+        "pipe-fitting": [195, 183, 48],
+        "pipe-valve": [93, 43, 184],
+        "pipe-valve":[222,111,43],
+
+        "plumbing-bathtub": [120, 120, 120],
+        "plumbing-urinal": [0, 255, 112],
+        "plumbing-toilet": [255, 122, 8],
+        "plumbing-toiletpartition-panel": [0, 61, 255],
+        "plumbing-waterheater": [255, 8, 41],
+        "plumbing-stove":[111,222,43],
+        "plumbing-showerhead":[67,67,45],
+        "plumbing-sink": [102, 8, 255],
+
+        "rebar": [255, 41, 10],
+        "railing": [10, 255, 71],
+
+        "roadway-asphalt": [7, 255, 255],
+        "roadway-paint": [224, 255, 8],
+
+        "stairs": [255, 61, 6],
+        "stairs-concrete": [255, 194, 7],
+        "stairs-escalator": [237, 207, 0],
+
+        "vendingmachine": [0, 255, 133],
+
+        "wall":[213,43,222],
+        "wall-brick":[153, 255, 0],
+        "wall-cmu": [0, 0, 255],
+        "wall-concrete": [255, 5, 153],
+
+        "windows": [6, 51, 255]      
+    },
+
+    "CLASS_TEXTURE_PROPERTY_MAP": {
+        "beam-concrete": "Concrete",
+        "beam-steel": "Oxidized Rebar",
+
+        "ceiling-compound": "GypsumBoard",
+        "ceiling-framing-wood": "Wood",
+        "ceiling-gypsumboard": "GypsumBoard",
+        "ceiling-plastered":"Drop Ceiling",
+        "ceiling-skylight": "PVC",
+        "ceiling-concrete": "Concrete",
+        "ceiling-soffit":"GypsumBoard",
+
+        "column-concrete": "Concrete",
+        "column-steel": "Oxidized Rebar",
+
+        "curtainwall-concrete": "Concrete",
+        "curtainwall-glass": "Glass",
+        "curtainwall-metal": "Oxidized Rebar",
+        "curtainwall-mullion": "Oxidized Rebar",
+        "curtainwall-panel": "Oxidized Rebar",
+        "curtainwall-panel2": "Oxidized Rebar",
+
+        "door": "Wood",
+
+        "drywall-framing-wood": "Wood",
+        "drywall-framing-metal": "Aluminum",
+        "drywall-insulation": "Insulation",
+        "drywall-gypsumboard": "GypsumBoard",
+        "drywall-plastered": "Drop Ceiling",
+
+        "duct-diffuser":"Aluminum",
+        "duct-insulated":"Aluminum",
+        "duct-uninsulated": "Aluminum",
+        "duct-vent": "Aluminum",
+        "duct-hanger": "Electric Metallic Tube",
+
+        "electrical-box": "Oxidized Rebar",
+        "electrical-conduit": "Electric Metallic Tube",
+        "electrical-coverplate": "PVC",
+        "electrical-cabletray":"Oxidized Rebar",
+        "electrical-junctionbox":"Oxidized Rebar",
+        "electrical-motor":"Oxidized Rebar",
+
+        "firehydrant": "Oxidized Rebar",
+        "firecabinet": "Oxidized Rebar",
+
+        "fixture-alarm-fire":"Oxidized Rebar",
+        "fixture-alarm-smoke":"PVC",
+        "fixture-fan": "PVC",
+        "fixture-light": "PVC",
+        "fixture-sign":"PVC",
+
+        "floor": "Concrete",
+        "floor-concrete": "Concrete",
+        "floor-formwork": "Wood",
+        "floor-metaldeck": "Oxidized Rebar",
+        "floor-tile": "PVC",
+        "floor-rebar": "Rebar",
+
+        "foundation-pile": "Concrete",
+        "foundation-slab":"Concrete",
+
+        "framing-joist-metal": "Oxidized Rebar",
+        "framing-plate": "Oxidized Rebar",
+        "framing-truss-steel": "Oxidized Rebar",
+        
+        "furniture-cabinet": "Wood",
+        "furniture-cabinets": "Wood",
+        "furniture-countertop": "PVC",
+        "furniture-chair": "Wood",
+        "furniture-fireextinguisher": "Oxidized Rebar",
+        "furniture-table": "Wood",        
+
+        "guardrails":"Wood",
+
+        "mechanical-equipment": "Oxidized Rebar",
+        "mechanical-pump": "Oxidized Rebar",
+        "mechanical-tank": "Oxidized Rebar",
+
+        "plumbing-bathtub": "PVC",
+        "plumbing-showerhead":"Electric Metallic Tube",
+        "plumbing-stove":"Oxidized Rebar",
+        "plumbing-sink": "PVC",
+        "plumbing-toilet": "PVC",
+        "plumbing-toiletpartition-panel": "PVC",
+        "plumbing-urinal": "PVC",
+        "plumbing-waterheater": "Oxidized Rebar",
+
+        "pipe-hangers":"Oxidized Rebar",
+        "pipe-insulated":"GypsumBoard",
+        "pipe-uninsulated": "PVC",
+        "pipe-sprinkler": "Oxidized Rebar",
+        "pipe-fitting": "PVC",
+        "pipe-valve": "PVC",
+
+        "railing": "Rebar",
+        "rebar": "Rebar",
+
+        "roadway-asphalt": "Concrete",
+        "roadway-paint": "Concrete",
+
+        "stairs": "Concrete",
+        "stairs-concrete": "Concrete",
+        "stairs-escalator": "Electric Metallic Tube",
+
+        "vendingmachine": "Rebar",
+
+        "wall":"Concrete",
+        "wall-brick":"Concrete",
+        "wall-cmu":"Concrete",
+        "wall-concrete": "Concrete",
+
+        "windows": "Glass",
+        "window": "Glass"
+    },
+
+    "CLASS_TO_TEXTURE_MAP": {
+
+        "beam-steel": "CorrugatedSteel002_2K_Color",
+        "beam-concrete": "Concrete006_2K_Color",
+
+        "ceiling-compound":"drop_ceiling_tiles",
+        "ceiling-framing-wood": "Wood034_2K_Color",
+        "ceiling-gypsumboard": "Chipboard003_2K_Color",
+        "ceiling-plastered": "Plaster001_2K_Color",
+        "ceiling-skylight":"plastic_0008",
+        "ceiling-soffit":"styro_poly",
+        "ceiling-concrete": "Concrete024_2K_Color",
+
+        "column-concrete": "Concrete006_2K_Color",
+        "column-steel": "CorrugatedSteel002_2K_Color",
+
+        "curtainwall-concrete": "Concrete033_2K_Color",
+        "curtainwall-glass": "Glass031_1K_Color",
+        "curtainwall-metal": "Metal028_2K_Color",
+        "curtainwall-mullion": "Metal009_2K_Color",
+        "curtainwall-panel": "Metal032_2K_Color",
+        "curtainwall-panel2": "Metal035_2K_Color",
+
+        "door": "Wood030_2K_Color",
+
+        "drywall-framing-metal": "CorrugatedSteel005_2K_Color",
+        "drywall-framing-wood": "Wood046_2K_Color",
+        "drywall-gypsumboard": "Chipboard003_2K_Color",
+        "drywall-plastered": "Plaster001_2K_Color",
+        "drywall-insulation": "TBD",
+
+        "duct-diffuser":"Metal037_2K_Color",
+        "duct-insulated":"duct_0041",
+        "duct-uninsulated": "Metal038_2K_Color",
+        "duct-vent": "Metal038_2K_Color",
+        "duct-hanger": "Metal038_2K_Color",
+
+        "electrical-box": "Metal038_2K_Color",
+        "electrical-cabletray":"Metal037_2K_Color",
+        "electrical-junctionbox":"Metal037_2K_Color",
+        "electrical-motor":"Metal021_2K_Color",
+        "electrical-conduit": "Metal038_2K_Color",
+        "electrical-coverplate": "Bathtub001_2K_Color",
+
+        "firecabinet": "PaintedMetal004_2K_Color",
+        "firehydrant":"PaintedMetal004_2K_Color",
+
+        "fixture-light": "Bathtub001_2K_Color",
+        "fixture-fan": "Bathtub001_2K_Color",
+        "fixture-alarm-fire":"PaintedMetal004_2K_Color",
+        "fixture-alarm-smoke":"plastic_0008",
+        "fixture-sign":"Bathtub001_2K_Color",
+
+        "floor": "Concrete024_2K_Color",
+        "floor-concrete": "Concrete024_2K_Color",
+        "floor-formwork":"Wood037_2K_Color",
+        "floor-metaldeck": "Metaldeck001_2k",
+        "floor-tile":"floortile_1",
+        "floor-rebar":"Metal036_2K_Color",
+
+        "foundation-pile": "Concrete005_2K_Color",
+        "foundation-slab":"Concrete023_2K_Color",
+
+        "framing-joist-steel": "CorrugatedSteel002_2K_Color",
+        "framing-plate": "CorrugatedSteel002_2K_Color",
+        "framing-truss-steel": "CorrugatedSteel002_2K_Color",
+
+        "furniture-cabinet": "Wood006_2K_Color",
+        "furniture-cabinets": "Wood006_2K_Color",
+        "furniture-countertop":"countertop_granite",
+        "furniture-chair": "Wood034_2K_Color",
+        "furniture-fireextinguisher": "PaintedMetal004_2K_Color",
+        "furniture-table": "Wood037_2K_Color",
+
+        "guardrails":"Wood034_2K_Color",
+
+        "mechanical-equipment": "Metal038_2K_Color",
+        "mechanical-pump": "PaintedMetal004_2K_Color",
+        "mechanical-tank": "PaintedMetal002_2K_Color",
+
+        "plumbing-showerhead":"Metal032_2K_Color",
+        "plumbing-sink": "Bathtub001_2K_Color",
+        "plumbing-bathtub": "Bathtub001_2K_Color",
+        "plumbing-stove":"Metal012_2K_Color",
+        "plumbing-toilet": "Bathtub001_2K_Color",
+        "plumbing-toiletpartition-panel":"plastic_0008",
+        "plumbing-urinal":"Bathtub001_2K_Color",
+        "plumbing-waterheater": "Metal038_2K_Color",
+
+        "pipe-hangers":"Metal036_2K_Color",
+        "pipe-insulated":"styro_poly",
+        "pipe-uninsulated": "Bathtub001_2K_Color",
+        "pipe-valve":"Bathtub001_2K_Color",
+        "pipe-sprinkler":"CorrugatedSteel002_2K_Color",
+        "pipe-fitting": "Metal038_2K_Color",
+
+        "railing": "Metal028_2K_Color",
+        "rebar": "Metal033_2K_Color",
+
+        "roadway-asphalt": "Asphalt001_4K_Color",
+        "roadway-paint": "AsphaltPaint001_4K_Color",
+        
+        "stairs": "Concrete006_2K_Color",
+        "stair-concrete": "Concrete006_2K_Color",
+        "stairs-escalator": "Metal038_2K_Color",
+                
+        "vendingmachine":"PaintedMetal008_2K_Color",
+
+        "wall":"Plaster006_2K_Color",
+        "wall-brick":"Brick_Wall_014",
+        "wall-cmu":"Concrete_Blocks_007",
+        "wall-concrete":"Concrete006_2K_Color",
+        
+        "windows": "Wood030_2K_Color",
+        "window": "Wood030_2K_Color"
+    }
+}
