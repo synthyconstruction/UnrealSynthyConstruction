@@ -1,7 +1,7 @@
 # Unreal ViS-WP Synthetic Data Collector
 Unreal script project for automatic collection of ground-truth synthetic data for segmentation tasks. The label structure obeys the ViS-WP structure.
 
-![unreal_viswp](https://github.com/synthyconstruction/UnrealSynthyConstruction/tree/main/doc/unreal_viswp.gif) 
+![unreal_viswp](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/unreal_viswp.gif) 
 
 # Version History:
 
