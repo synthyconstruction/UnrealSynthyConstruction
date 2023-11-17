@@ -61,13 +61,13 @@ Install the necessary packages directly to the Unreal Python interpreter:
 ## Import project geometry using DataSmith 
 1. Export from the modeling platform your model using the Datasmith Plugin. Depending on your arrangement of exports, you may create several `.udatasmith` files.
 2. Upon relaunching your SIEProject, clean your new project from unnecessary default geometry and actors. *Note: Make sure to NOT delete the `SunSky` and `ExponentialHeightFog` elements.*
-   ![delete_unwanted_elems](https://github.com/synthyconstruction/UnrealSynthyConstruction/tree/main/doc/img.png)
+   ![delete_unwanted_elems](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/img.png)
 3. To begin importing new geometry, click the DataSmith button to open the wizard, and select the `.udatasmith` files of interest from step 1.
 4. [RECOMMENDED] For better content browser organization, save all imported geometry in a separate folder in the Content Browser.
-   ![SIEFolder_content_browser](https://github.com/synthyconstruction/UnrealSynthyConstruction/tree/main/doc/SIEFolder_content_browser.png)
+   ![SIEFolder_content_browser](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/SIEFolder_content_browser.png)
    
 5. Once the import begins, ensure to ONLY import `Geometry`, and `Materials & Textures`. Later on, we will be creating our own `Lights`, and `Cameras`.
-   ![import_options](https://github.com/synthyconstruction/UnrealSynthyConstruction/tree/main/doc/import_options.png)
+   ![import_options](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/import_options.png)
 
 ## Running main.py
 1. Open the Python Scripting output console by enabling **Window > Developer Tool > Output Log**
@@ -96,7 +96,7 @@ Install the necessary packages directly to the Unreal Python interpreter:
 ## Recommended code pipeline execution steps
 
 ### Collecting Rendered Images
-![render](https://github.com/synthyconstruction/UnrealSynthyConstruction/tree/main/doc/render.png)
+![render](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/render.png)
 1. Create Cameras (`CREATE_CAMERAS = True`) and PostProcess Volume (`POST_PROCESS_VOL_CREATE = True`).
 2. Run `main.py` from the output console.
 3. Load Textures (`IMPORT_TEXTURES = True`), create material instances (`CREATE_MATERIAL = True`), and automatically apply them to objects (`APPLY_MATERIAL = True`).
@@ -108,21 +108,21 @@ Install the necessary packages directly to the Unreal Python interpreter:
 9. By default, images are stored in `C:\Users\[USERNAME]\Documents\Unreal Projects\[PROJECTNAME]\Saved\Screenshots\Windows`. Copy them elsewhere to avoid overwriting these with other modalities later on.
 
 ### Collecting Depth Images
-![depth_map](https://github.com/synthyconstruction/UnrealSynthyConstruction/tree/main/doc/depth_map.png)
+![depth_map](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/depth_map.png)
 *NOTE: make sure you have your cameras already created (see step 1). If you already have your cameras created, there is no need to run that step again.*
 **Instructions to come later**
 
 ### Creating and Applying Label Maps
-![rgb_mask](https://github.com/synthyconstruction/UnrealSynthyConstruction/tree/main/doc/rgb_mask.png)
+![rgb_mask](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/rgb_mask.png)
 *NOTE: make sure you have your cameras already created (see step 1). If you already have your cameras created, there is no need to run that step again.*
 **Instructions to come later**
 
 ### Capturing SurfaceNormals
-![surface_normal](https://github.com/synthyconstruction/UnrealSynthyConstruction/tree/main/doc/surface_normal.png)
+![surface_normal](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/surface_normal.png)
 *NOTE: make sure you have your cameras already created (see step 1). If you already have your cameras created, there is no need to run that step again.*
 **Instructions to come later**
 
 ### Working with Canonical Cameras
-![canonical_camera](https://github.com/synthyconstruction/UnrealSynthyConstruction/tree/main/doc/canonical_view.png)
+![canonical_camera](https://github.com/synthyconstruction/UnrealSynthyConstruction/blob/main/doc/canonical_view.png)
 *NOTE: make sure you have your cameras already created (see step 1). If you already have your cameras created, there is no need to run that step again.*
 **Instructions to come later**
